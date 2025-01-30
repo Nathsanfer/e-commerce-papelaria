@@ -1,0 +1,104 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Merienda:wght@300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Padrões/customizados CSS */
+
+:root {
+    --rosa: #DA4167;
+    --cinza: #D9D9D9;
+    --cina-escuro: #545454;
+    --cinza-medio: #B3B3B3;
+    --pret0: #000000;
+    --branco: #FFFFFF;
+    --open-sans: 'Open Sans', sans-serif;
+}
+
+.barra_promocoes {
+    background-color: var(--rosa);
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aviso {
+    color: var(--branco);
+    font-family: var(--open-sans);
+    font-weight: 580;
+    font-size: 12px;
+}
+
+.header {
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    padding: 0px 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.13);
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    color: var(--rosa);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    height: 2rem;
+}
+
+.categoria {
+    width: 10%;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--preto);
+    gap: 10px;
+}
+
+.img_conta, .img_sacola, .img_favoritos {
+    height: 100%;
+}
+
+.link p {
+    text-decoration: none;
+    color: var(--preto);
+}
+
