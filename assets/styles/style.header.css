@@ -61,6 +61,10 @@
     align-items: center;
 }
 
+.logo a {
+    text-decoration: none;
+}
+
 .logo h1 {
     color: var(--rosa);
 }
